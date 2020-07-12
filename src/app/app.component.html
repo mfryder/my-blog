@@ -7,17 +7,12 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <div class="app-container">
-    <div class="main-toolbar-container">
-        <mat-toolbar>
-            <span>Home</span>
-        </mat-toolbar>
+    <div>
+        <app-blog-main-tool-bar></app-blog-main-tool-bar>
     </div>
     <div class="main-page-container">
         <div class="side-nav-container">
-            <mat-sidenav-container style="height:inherit">
-                <mat-sidenav>Start</mat-sidenav>
-                <mat-sidenav-content>Main</mat-sidenav-content>
-            </mat-sidenav-container>
+            <app-blog-left-side-nav></app-blog-left-side-nav>
         </div>
         <div class="main-content-container">
          <router-outlet style="height:inherit"></router-outlet>
