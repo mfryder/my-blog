@@ -18,7 +18,7 @@ export class BlogLeftSideNavComponent implements OnInit {
     "icon": "gavel"
   },{
     "label": "Video Games",
-    "uri": "gameing",
+    "uri": "gaming",
     "icon": "videogame_asset"
   },{
     "label": "Stock Market",

@@ -12,11 +12,13 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { BlogLeftSideNavComponent } from './blog-left-side-nav/blog-left-side-nav.component';
 import { BlogMainToolBarComponent } from './blog-main-tool-bar/blog-main-tool-bar.component';
+import { VideoGamesComponent } from './video-games/video-games.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    VideoGamesComponent,
     BlogLeftSideNavComponent,
     BlogMainToolBarComponent
   ],
